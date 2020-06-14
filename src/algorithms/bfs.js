@@ -1,15 +1,9 @@
-// @flow
-
 import Queue from 'queue-fifo';
 import { BOARD_ROW, BOARD_COL, ITEM_CLICKED, ITEM_VISITED } from 'constants.js';
-import PathFinder, { type ConstructorType } from './pathFinder';
+import PathFinder  from './pathFinder';
 
 export default class Bfs extends PathFinder {
-  visited: Array<Array<boolean>>;
-
-  queue: any;
-
-  constructor(args: ConstructorType) {
+  constructor(args) {
     super(args);
     this.visited = [];
     this.q = new Queue();
@@ -18,7 +12,7 @@ export default class Bfs extends PathFinder {
     }
   }
 
-  execute = (): boolean => {
+  execute = () => {
     const { q, begin, end, visited, board, prev, updateItem } = this;
     q.enqueue({ x: begin.x, y: begin.y });
     visited[begin.x][begin.y] = true;

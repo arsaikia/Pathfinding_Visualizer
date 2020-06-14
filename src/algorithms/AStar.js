@@ -1,8 +1,6 @@
-// @flow
-
 import PriorityQueue from 'js-priority-queue';
 import { BOARD_ROW, BOARD_COL, ITEM_CLICKED, ITEM_VISITED } from 'constants.js';
-import PathFinder, { ConstructorType } from './pathFinder';
+import PathFinder from './pathFinder';
 
 export default class AStar extends PathFinder {
   constructor(args) {
