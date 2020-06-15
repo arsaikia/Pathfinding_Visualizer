@@ -3,6 +3,7 @@
 import React from 'react';
 import Modal from 'react-modal';
 import './ModalInfo.scss';
+import SimpleModal from './HelpModal';
 
 type ModalInfoPropTypes = {
   isHelped: boolean,
@@ -16,6 +17,7 @@ const ModalInfo = ({ isHelped, onHelpClose }: ModalInfoPropTypes) => {
       isOpen={isHelped}
       contentLabel="Example Modal"
       onRequestClose={onHelpClose}
+      style={{ marginTop: '10px' }}
     >
       <h1 className="modal-info__title">How to use?</h1>
       <p className="modal-info__color">
@@ -36,8 +38,9 @@ const ModalInfo = ({ isHelped, onHelpClose }: ModalInfoPropTypes) => {
           </p>
           <p className="modal-info__content">
             <span className="modal-info__square--fixed" />
-            <p>fixed</p>
+            <p>Start</p>
           </p>
+          
         </div>
         <div className="modal-info__row">
           <p className="modal-info__content">

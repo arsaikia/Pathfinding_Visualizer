@@ -1,4 +1,4 @@
-$visited-color: #2b8be6bd;
+$visited-color: #2b8be6a9;
 $shortest-color: #f04460;
 $fixed-color: #50505000;
 $clicked-color: #ff5100;
@@ -8,7 +8,7 @@ $header-height: 10vh;
 $content-header-height: 9vh;
 $footer-height: 10vh;
 $board-height: calc(
-  100vh - (#{$header-height} + #{$content-header-height} + #{$footer-height})+20vh
+  100vh - (#{$header-height} + #{$content-header-height} + #{$footer-height})
 );
 
 $board-row: 16;

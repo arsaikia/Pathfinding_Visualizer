@@ -43,10 +43,10 @@ export const ITEM_CLICKED = 'ITEM_CLICKED';
 export const ITEM_SHORTEST = 'ITEM_SHORTEST';
 
 // Delay
-export const DELAY_SLOWEST = 550;
-export const DELAY_SLOW = 450;
-export const DELAY_NORMAL = 300;
-export const DELAY_FAST = 150;
+export const DELAY_SLOWEST = 500;
+export const DELAY_SLOW = 350;
+export const DELAY_NORMAL = 200;
+export const DELAY_FAST = 100;
 export const DELAY_FASTEST = 50;
 
 // Board

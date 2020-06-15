@@ -16,7 +16,7 @@ const Board = () => {
   });
   const clickPos = useRef<{| x: number, y: number |}>({ x: -1, y: -1 });
 
-  const onMouseDown = (e) => {
+  const onMouseDown = e => {
     const ridx = Number(e.target.dataset.ridx);
     const cidx = Number(e.target.dataset.cidx);
 
@@ -89,6 +89,7 @@ const Board = () => {
       onClick={onClick}
       role="button"
       tabIndex="0"
+      style={{ marginBottom: '20px' }}
     >
       {BOARD.map((row, ridx) => (
         // eslint-disable-next-line react/no-array-index-key

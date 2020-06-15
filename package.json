@@ -32,7 +32,7 @@
     "eject": "react-scripts eject",
     "flow": "flow",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "browserslist": {
     "production": [

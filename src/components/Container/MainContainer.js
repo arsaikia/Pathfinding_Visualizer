@@ -1,31 +1,20 @@
-import React, { useEffect, useContext, useState } from 'react';
-
+import React from 'react';
 import Header from 'components/Header/Header';
-
 import './Container.scss';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import ContainerContent from './Container';
 import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
 import { makeStyles } from '@material-ui/core/styles';
 import { Grid } from '@material-ui/core';
-import BottomNavigation from '@material-ui/core/BottomNavigation';
-import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
-import FolderIcon from '@material-ui/icons/Folder';
-import RestoreIcon from '@material-ui/icons/Restore';
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import LocationOnIcon from '@material-ui/icons/LocationOn';
-import Paper from '@material-ui/core/Paper';
 import BottomNavBar from './BottomNavBar';
 
 const useStyles = makeStyles(theme => ({
   root: {
     '& > *': {
       margin: theme.spacing(0),
+      maxHeight: '90vh',
       overflow: 'hidden',
     },
   },
@@ -86,7 +75,8 @@ export default function MainContainer() {
         alignItems="center"
         justify="center"
         direction="row"
-        margin="10px"
+        marginTop="10px"
+        paddingTop="10px"
       >
         <BottomNavBar></BottomNavBar>
       </Grid>

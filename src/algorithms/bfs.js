@@ -31,8 +31,7 @@ export default class Bfs extends PathFinder {
         const nextX = current.x + PathFinder.dx[i];
         const nextY = current.y + PathFinder.dy[i];
 
-        if (nextX < 0 || nextX >= BOARD_ROW || nextY < 0 || nextY >= BOARD_COL)
-          continue;
+
         if (visited[nextX][nextY] || board[nextX][nextY] === ITEM_CLICKED)
           continue;
 
