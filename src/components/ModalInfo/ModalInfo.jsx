@@ -60,7 +60,9 @@ const ModalInfo = ({ isHelped, onHelpClose }: ModalInfoPropTypes) => {
           <h2>by dragging</h2> */}
         </div>
         <div className="modal-info__row">
-          <h2>3. You can choose algorithm and speed from select box</h2>
+          <h2>
+            3. You can choose an algorithm and speed from drop down from Navbar
+          </h2>
         </div>
       </p>
       <button onClick={onHelpClose} className="modal-info__close" type="button">
