@@ -1,6 +1,6 @@
 # Pathfinding_Visualizer :
 
-Netlify : https://friendly-golick-c2ed0d.netlify.app/
+www.arsaikia.tech
 
 ### _WORK IN PROGRESS_
 
