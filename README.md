@@ -1,7 +1,6 @@
 # Pathfinding_Visualizer :
 
-    ### Netlify : https://friendly-golick-c2ed0d.netlify.app/
-    ### Gh-pages: https://arsaikia.github.io/Pathfinding_Visualizer/
+    Netlify : https://friendly-golick-c2ed0d.netlify.app/
 
 ### _WORK IN PROGRESS_
 
