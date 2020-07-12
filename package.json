@@ -13,6 +13,7 @@
     "flow-bin": "^0.117.0",
     "fontsource-roboto": "^2.1.4",
     "js-priority-queue": "^0.1.5",
+    "netlify-cli": "^2.58.0",
     "node-sass": "^4.13.1",
     "open-color": "^1.7.0",
     "queue-fifo": "^0.2.6",
